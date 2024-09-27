@@ -13,9 +13,16 @@ import Portfolio from "./Pages/portfolio/Portfolio"
 
 function App() {
   return (
+    // wrapper
     <BrowserRouter>
+
+    {/* do not change */}
     <Navbar/>
+
+    {/* whole comonents */}
     <Routes>
+
+      {/* for single */}
       <Route index element = {<Home/>} />
       <Route path = "about" element = {<About/>}/>
       <Route path = "portfolio" element = {<Portfolio/>}/>
