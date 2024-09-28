@@ -7,11 +7,12 @@
 
  /* colors */
   --first-color: hsl(271, 76%, 53%); /* Fixed spacing */
-  --titile-color:hsl(0,0%,40%);
+  --title-color:hsl(0,0%,40%);
   --text-color:hsl(0,0%,50%);
   --body-color:hsl(0,0,40%);
   --container-color:hsl(0,0,93%);
-  --border-color:hsl(0,0,87%);
+  /* --container-color:hsl(0, 87%, 40%); */
+  --border-color:hsl(0, 0%, 87%);
   --text-white:#ffffff;
 
 
@@ -30,6 +31,7 @@
   --tiny-font-size:12px;
 
   /* font weight */
+  --weight-300: 300;
   --weight-400: 400; /* Fixed variable names */
   --weight-500: 500;
   --weight-600: 600;
@@ -40,6 +42,10 @@
 
 
 }
+
+
+
+
 
 
 /* base */
@@ -91,4 +97,12 @@ button,input,textarea{
 img{
  max-width: 100%;
 }
+
+
+/* resuable css */
+
+
+
+
+
 
