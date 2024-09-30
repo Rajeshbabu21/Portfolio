@@ -1,11 +1,11 @@
 import React from 'react'
-// import Profile from "../../assets/home.jpg" 
+// import Profile from "../../assets/home.jpg"
 // import Profile from '../../assets/home.jpg'
-import Profile from "../../assets/home1.jpg"
+import Profile from '../../assets/home1.jpeg'
 
-import {Link} from "react-router-dom"
+import { Link } from 'react-router-dom'
 import { FaArrowRight } from 'react-icons/fa'
-import "./home.css"
+import './home.css'
 
 const Home = () => {
   return (
@@ -21,25 +21,20 @@ const Home = () => {
           </h1>
 
           <p className='home__description'>
-            Hey there! I'm Rajeshbabu, a Front-End Developer and DSA Enthusiast.
-            I build clean, responsive websites with HTML, CSS, React.js, and
-            Tailwind CSS. With a passion for problem-solving through Data
-            Structures and Algorithms in JAVA, I aim to create impactful software. Let’s
-            create something awesome together!
+            I'm a passionate and dedicated front-end developer with a strong
+            interest in Data Structures and Algorithms.
           </p>
 
-          <Link to="/about" className='button'>
-          More About Me {' '}
-          <span className='button__icon'>
-            <FaArrowRight />
-          </span>
+          <Link to='/about' className='button'>
+            More About Me{' '}
+            <span className='button__icon'>
+              <FaArrowRight />
+            </span>
           </Link>
         </div>
       </div>
 
-      <div className="color__block">
-
-      </div>
+      <div className='color__block'></div>
     </section>
   )
 }
