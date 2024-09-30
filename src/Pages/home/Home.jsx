@@ -1,7 +1,7 @@
 import React from 'react'
 // import Profile from "../../assets/home.jpg" 
 // import Profile from '../../assets/home.jpg'
-import Profile from "../../assets/home.jpg"
+import Profile from "../../assets/home1.jpeg"
 
 import {Link} from "react-router-dom"
 import { FaArrowRight } from 'react-icons/fa'
@@ -38,7 +38,7 @@ const Home = () => {
       </div>
 
       <div className="color__block">
-        
+
       </div>
     </section>
   )
