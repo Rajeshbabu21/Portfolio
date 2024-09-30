@@ -16,6 +16,7 @@ const Home = () => {
         <div className='home__data'>
           <h1 className='home__title'>
             <span>I'm Rajeshbabu.</span>
+            <pre></pre>
             Front-End Developer & DSA Enthusiast
           </h1>
 
@@ -34,6 +35,10 @@ const Home = () => {
           </span>
           </Link>
         </div>
+      </div>
+
+      <div className="color__block">
+        
       </div>
     </section>
   )
