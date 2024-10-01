@@ -8,6 +8,8 @@ import { SlEnvolopeLetter } from 'react-icons/sl'
 
 const About = () => {
   return (
+
+    <>
     <section className='about section' id='about'>
       <h1 className='section__title'>About Me</h1>
       {/* <span class='underline'></span> */}
@@ -47,6 +49,18 @@ const About = () => {
         </div>
       </div>
     </section>
+
+
+
+    <section>
+
+    </section>
+
+
+    </>
+
+
+
   )
 }
 
