@@ -13,9 +13,12 @@ const Qualification = () => {
       <div className='qualification__container container'>
         <div className='qualification__tabs'>
           <div className='qualification__button qualification__active button--flex'>
-            <span>
+            <span className='graduation'>
               <FaGraduationCap />
+              <span className='edu'>
+
               Education
+              </span>
             </span>
           </div>
         </div>

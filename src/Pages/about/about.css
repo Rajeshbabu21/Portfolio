@@ -629,6 +629,10 @@ margin-left: 150px;
   transform: translate(6px, -7px);
 }
 
+.edu{
+  margin-left: 5px;
+}
+
 
 
 @media screen and (max-width:992px){
