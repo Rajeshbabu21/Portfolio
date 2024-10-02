@@ -11,7 +11,15 @@
   --title-color:hsl(0,0%,40%);
   --text-color:hsl(0,0%,50%);
   --body-color:hsl(0,0,40%);
-  --container-color:hsl(0,0,93%);
+  /* --body-color:hsl(0, 79%, 34%); */
+  /* --container-color:hsl(0, 25%, 90%); */
+  /* --container-color-light: hsl(0, 25%, 95%); */
+  /* --container-color: hsl(0, 0%, 88%); */
+  --container-color:hsl(0deg 0% 90.4%); 
+
+
+  
+
   /* --container-color:hsl(0, 87%, 40%); */
   --border-color:hsl(0, 0%, 87%);
   --text-white:#ffffff;
