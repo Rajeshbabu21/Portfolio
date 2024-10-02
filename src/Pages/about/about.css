@@ -18,6 +18,10 @@
 
 }
 
+.section__title span{
+ color: var(--title-color);
+}
+
 
 .section__subtitle{
  display: flex;

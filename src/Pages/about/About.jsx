@@ -12,7 +12,9 @@ const About = () => {
   return (
     <>
       <section className='about section' id='about'>
-        <h1 className='section__title'>About Me</h1>
+        <h1 className='section__title'>
+          About <span className='me'>Me</span>
+        </h1>
         {/* <span class='underline'></span> */}
         <div class='underline'></div>
         <span className='section__subtitle'>My Introduction</span>
@@ -49,29 +51,19 @@ const About = () => {
         </div>
       </section>
 
-
-      <section className="skills section" id="skills">
-        <h2 className="section__title">
-          Skills
-        </h2>
-        <div className="underline"></div>
+      <section className='skills section' id='skills'>
+        <h2 className='section__title'>Skills</h2>
+        <div className='underline'></div>
 
         <span className='section__subtitle'>My technical level</span>
 
-
-        <div className="skills__container grid" >
-          <Frontend/>
-          <Language/>
-
+        <div className='skills__container grid'>
+          <Frontend />
+          <Language />
         </div>
       </section>
 
-      <Qualification/>
-
-
-
-
-      
+      <Qualification />
     </>
   )
 }
