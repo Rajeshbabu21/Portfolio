@@ -399,7 +399,7 @@ margin-left: 150px;
 
 .skills{
   /* margin: 0; */
-  padding-top: 0;
+  padding-top: 5px;
 }
 
 .skills__container{
@@ -542,11 +542,150 @@ margin-left: 150px;
 }
 
 
+.qualification {
+  padding-top: 0px;
+}
+
+.qualification__container {
+  max-width: 100%;
+}
+
+.qualification__tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.qualification__button {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--first-color);
+  cursor: pointer;
+}
+
+.qualification__icon {
+  font-size: 1.rem;
+  margin-left: 0.45rem;
+}
+
+.year{
+  margin-left: 7px;
+}
 
 
 
 
+.qualification__sections {
+  display: grid;
+  grid-template-columns: 0.5fr;
+  justify-content: center;
+}
 
+.qualification__content {
+  display: none;
+}
+
+.qualification__content-active {
+  display: block;
+}
+
+.qualification__data {
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  column-gap: 1.5rem;
+}
+
+.qualification__title {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--first-color);
+}
+
+.qualification__subtitle {
+  display: inline-block;
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+}
+
+.qualification__calender {
+  font-size: 1rem;
+  /* color: var(--first-color); */
+}
+
+.qualification__rounder {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+.qualification__line {
+  display: block;
+  width: 1px;
+  height: 100%;
+  background-color: #000;
+  transform: translate(6px, -7px);
+}
+
+
+
+@media screen and (max-width:992px){
+  .qualification__container{
+    margin-left: auto;
+    margin-right:auto ;
+  }
+
+  
+
+}
+
+
+@media screen and (max-width:768px)
+
+{
+
+  .qualification__container{
+    margin-left:1.5rem ;
+    margin-right: 1.5rem;
+  }
+
+
+  .qualification__sections{
+    grid-template-columns:initial ;
+        margin-left: 50px;
+  }
+
+}
+
+
+@media screen and (max-width:576px)
+{
+  .qualification__sections{
+    grid-template-columns: initial;
+    margin-left: 20px;
+    
+  }
+
+  .qualification__button{
+    margin: 0 0.75rem;
+  }
+
+}
+
+
+
+@media screen and (max-width:350px)
+{
+  .qualification__data{
+  gap: 0.5rem;
+    
+  }
+
+  
+
+}
 
 
 

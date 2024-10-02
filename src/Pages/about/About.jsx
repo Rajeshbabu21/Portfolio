@@ -7,7 +7,7 @@ import Info from '../about/Intro'
 import { SlEnvolopeLetter } from 'react-icons/sl'
 import Frontend from './Frontend'
 import Language from "./Language"
-
+import Qualification from './Qualification'
 const About = () => {
   return (
     <>
@@ -65,6 +65,11 @@ const About = () => {
 
         </div>
       </section>
+
+      <Qualification/>
+
+
+
 
       
     </>
