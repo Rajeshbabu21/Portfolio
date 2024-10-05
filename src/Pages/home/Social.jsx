@@ -7,19 +7,25 @@ import { FaInstagram } from 'react-icons/fa'
 const Social = () => {
   return (
     <div className='home__social'>
-      <a href='' className='home__social-icon' target='__blank'>
-       <FaGithub />
+      <a
+        href='https://github.com/Rajeshbabu21'
+        className='home__social-icon'
+        target='__blank'
+      >
+        <FaGithub />
+      </a>
+
+      <a
+        href='https://www.linkedin.com/in/rajeshbabu2004/'
+        className='home__social-icon'
+        target='__blank'
+      >
+        <FaLinkedin />
       </a>
 
       <a href='' className='home__social-icon' target='__blank'>
-       <FaLinkedin />
+        <FaInstagram />
       </a>
-
-      <a href='' className='home__social-icon' target='__blank'>
-       <FaInstagram />
-      </a>
-
-      
     </div>
   )
 }

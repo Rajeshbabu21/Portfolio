@@ -8,6 +8,7 @@ import { SlEnvolopeLetter } from 'react-icons/sl'
 import Frontend from './Frontend'
 import Language from "./Language"
 import Qualification from './Qualification'
+import cv from "../../assets/RAJESHBABU.pdf"
 const About = () => {
   return (
     <>
@@ -38,9 +39,9 @@ const About = () => {
                 Let’s create something awesome together!
               </span>
               <pre></pre>
-              <a download='' href={CV} className='button button--flex'>
+              <a download='' href={cv} className='button button--flex'>
                 <span className='letter'>
-                  Download CV{' '}
+                  Download Resume{' '}
                   <span className='letter_sym'>
                     <SlEnvolopeLetter />
                   </span>
