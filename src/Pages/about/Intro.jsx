@@ -9,34 +9,37 @@ const Intro = () => {
   return (
     <div className='about__info grid'>
       <div className='about__box'>
+        <a className='anchor' href='https://drive.google.com/file/d/1phuS487nHSpUTyhAW8VH5exSyCaSaDPG/view'>
         <h3 className='about__title'>
           <span className='about__icon'>
             <PiCertificate />
           </span>
           Certificate
         </h3>
-        <span className='about__subtitle'>1 Earned</span>
+          <span className='about__subtitle'>1 Earned</span>
+        </a>
       </div>
 
-      <div className='about__box'>
-        <h3 className='about__title'>
-          <span className='about__icon'>
-            <FiBriefcase />
-          </span>
-          Completed
-        </h3>
-        <span className='about__subtitle'>3 Projects</span>
-      </div>
+      <Link to='/portfolio'>
+        <div className='about__box'>
+          <h3 className='about__title'>
+            <span className='about__icon'>
+              <FiBriefcase />
+            </span>
+            Completed
+          </h3>
+          <span className='about__subtitle'>3 Projects</span>
+        </div>
+      </Link>
 
       <Link to='/contact' className=''>
-
-      <div className='about__boxc'>
-        <span className='about__icon'>
-          <FaHeadphonesAlt />
-        </span>
-        <h3 className='about__title'>Contact</h3>
-        <span className='about__subtitle'>Online 24/7</span>
-      </div>
+        <div className='about__boxc'>
+          <span className='about__icon'>
+            <FaHeadphonesAlt />
+          </span>
+          <h3 className='about__title'>Contact</h3>
+          <span className='about__subtitle'>Online 24/7</span>
+        </div>
       </Link>
     </div>
   )

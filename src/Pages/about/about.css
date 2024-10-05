@@ -6,6 +6,10 @@
   margin-bottom: 20px;
 }
 
+.anchor{
+  color: var(--first-color);
+}
+
 
 
 .section__title{
